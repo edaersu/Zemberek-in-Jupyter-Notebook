@@ -1,6 +1,7 @@
 ## Zemberek kütüphanesini Jupyter Notebook'da Kullanma
 
-Zemberek java ile yazılmış bir kütüphane olduğundan Python kodu içerisinde bu kütüphaneyi kullanabilmemiz için JVM(Java sanal makinesi) ve bazı jar dosyalarının pathlerini kodda belirtmemiz gerekiyor.<br>
+Zemberek, açık kaynak kodlu Türkçe Doğal dil işleme kütüphanesidir.Tamamen Java ile geliştirilen kütüphane, yazım denetimi, hatalı kelimeler için öneri, heceleme, deascifier, hatalı kodlama temizleme gibi işlevlere sahiptir.<br>
+Python kodu içerisinde bu kütüphaneyi kullanabilmemiz için JVM(Java sanal makinesi) ve bazı jar dosyalarının pathlerini kodda belirtmemiz gerekiyor.<br>
 
 Adımlar:<br>
 1-Java kurulumu<br>
@@ -20,3 +21,4 @@ zemberek-tum-2.0.jar >> "C:\Users\Eda\Desktop\zemberek\zemberek-tum-2.0.jar" <br
 
 **Son olarak Notebook'da kullanılan bir diğer jar dosyası "zemberek-full.jar" dosyasını [buradan](https://drive.google.com/file/d/1RRuFK43JqcHcthB3fV2IEpPftWoeoHAu/view?usp=sharing) indirerek path'i jar2 değişkenine atarsanız notebook sorunsuz çalışacaktır.(Dosya boyutu dolayısıyla repoya koyamadım)
 
+"zemberek-full.jar" içerisindeki class ve methodlara ise [bu repodan](https://github.com/ahmetaa/zemberek-nlp) erişebilirsiniz
